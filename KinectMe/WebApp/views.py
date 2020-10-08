@@ -3,8 +3,8 @@ from django.http import HttpResponse
 from django.views import generic
 from .models import Profile
 
-def dashboard(request):
-    return render(request, 'site/dashboard.html')
+def homepage(request):
+    return render(request, 'site/homepage.html')
 
 #class Dash(generic.ListView):
     #model = Profile

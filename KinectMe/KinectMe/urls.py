@@ -16,10 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-from WebApp.views import dashboard
+from WebApp.views import homepage
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', include('WebApp.urls')),
-    path('site/', dashboard)
+    path('site/', homepage)
 ]
