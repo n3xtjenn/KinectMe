@@ -6,5 +6,5 @@ from .models import Profile
 
 class Dash(generic.ListView):
     model = Profile
-    template_name = 'site/dashboard.html'
+    template_name = 'site/event_description.html'
     context='Profile'
