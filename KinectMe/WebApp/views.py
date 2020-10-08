@@ -10,8 +10,5 @@ def homepage(request):
 
 class Dash(generic.ListView):
     model = Profile
-    template_name = 'site/dashboard.html'
-#class Dash(generic.ListView):
-    #model = Profile
-   #template_name = 'site/dashboard.html'
-    #context='Profile'
+    template_name = 'site/event_description.html'
+    context='Profile'
