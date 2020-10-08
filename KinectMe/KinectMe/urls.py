@@ -16,7 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+from WebApp.views import dashboard
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', include('WebApp.urls'))
+    path('home/', include('WebApp.urls')),
+    path('site/', dashboard)
 ]
