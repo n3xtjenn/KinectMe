@@ -14,6 +14,9 @@ def signup(request):
 def login(request):
     return render(request, 'site/login.html')
 
+def interests(request):
+    return render(request, 'site/interests.html')
+
 class Dash(generic.ListView):
     model = Profile
     template_name = 'site/event_description.html'

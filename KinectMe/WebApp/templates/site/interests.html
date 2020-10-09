@@ -35,9 +35,7 @@
         }
 
     </style>
-    {% load static %}
-    <!-- <body style="background-color: whitesmoke;background-image: url('{% static "myapps/fondo2.jpg" %}');"> -->
-    <body style="background: linear-gradient(#eae7e7, #eae7e7 , transparent), url('{% static "myapps/fondo2.jpg" %}');">
+        <body style="background-color: whitesmoke;">
         <nav class="navbar fixed-top navbar-light bg blue">
             <a style="margin-left: 120px;" class="navbar-brand font-weight-bold text-white">KinectMe</a>
             <form class="form-inline">
@@ -60,16 +58,35 @@
             <div class='row'>
                 <div class="col">
                         <div class="text">
-                            <h1 class="font-weight-bold"> DISCOVER EVENTS NEAR YOU </h1>
+                            <h1 class="font-weight-bold"> CHOOSE A FEW TOPICS THAT DESCRIBE YOUR INTERESTS                           
+                            </h1>
                             <h1 class="font-weight-bold"> </h1>
+                        </br></br></br>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Climbing</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Soccer</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Football</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Ultimate Frisbee</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Yoga</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Cricket</button>
+                            <br><br>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Running</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Basketball</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Volleyball</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Cycling</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Golf</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Tennis</button>
+                            <br><br>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Cornhole</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Baseball</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Softball</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Zumba</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Lifting</button>
+                            <button type="button" class="btn btn-outline-primary waves-effect">Other</button>
                         </div>
                 </div>
             </div>         
-            <img src="{% static "myapps/Logo.png" %}" alt="My image"/>
-                </br>
-                    <button class="btn btn-primary myBtn" type="button" onclick="location.href='/signup'" >Sign Up</button>
-                </br></br>
-                    <button class="btn btn-primary myBtn" type="button" onclick="location.href='/login'">Log In</button>
+                </br></br></br></br>
+                    <button class="btn btn-primary myBtn" type="button" onclick="location.href='/interests'" >Sign Up</button>
         </div>
     </br></br>
         <footer class="page-footer font-small blue pt-4">
